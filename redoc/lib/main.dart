@@ -50,7 +50,7 @@ class MyHome extends StatelessWidget {
                     'Getting Started',
                     style: TextStyle(
                         color: Color(0xffffffff),
-                        fontSize: 14,
+                        fontSize: 12,
                         fontFamily: 'Poppins'),
                   ),
                 ),
