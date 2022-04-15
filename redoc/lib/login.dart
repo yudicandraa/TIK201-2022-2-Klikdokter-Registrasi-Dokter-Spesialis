@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jagungku/beranda.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({Key? key}) : super(key: key);
@@ -180,13 +179,7 @@ class SignInPage extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0)),
                       color: Color(0xff796512),
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          new MaterialPageRoute(
-                              builder: (context) => new Home()),
-                        );
-                      },
+                      onPressed: () {},
                       child: Center(
                         child: Text(
                           'Masuk',
